@@ -12,18 +12,13 @@ const Home = () => {
         </div>
       </div>
       <div className="about-me">
-        <h3>
-          “Everything negative – pressure, challenges – is all an opportunity
-          for me to rise.” — Kobe Bryant
-        </h3>
+        <h3>“Be yourself; everyone else is already taken.” ― Oscar Wilde</h3>
         <p>
-          Hi I'm Keaton Braithwaite! I'm a full-stack software developer,
-          husband, father of 3, and outdoor enthusiast. I believe that through
-          technology people can not only improve their lives but change them! I
-          am passionate about helping other people live a better life and
-          excited to do it through my own talents as a developer. Below you can
-          see some of the technologies I have worked with and continue down to
-          see some of my projects.
+          Hi I'm Ryan Milne! I'm a full-stack software developer, husband,
+          self-proclaimed basketball analyst, and wanna-be foodie! I have seen
+          that through technology and continued education people can improve
+          their lives! Below you can see some of the technologies I have worked
+          with and continue down to see some of my projects.
         </p>
         <div className="technology">
           <i class="fab fa-js-square">
@@ -76,51 +71,32 @@ const Home = () => {
         <h2>PROJECTS</h2>
         <div className="memory-body">
           <div className="memory-info">
-            <h3>Me-Mories</h3>
+            <h3>My Portfolio</h3>
             <p>
-              A memory sharing app giving the user a way to upload image files
-              and attach a title and description of the photo.
+              This is the Portfolio I use to show off all of the work that I
+              have done.
             </p>
             <a
-              href="https://github.com/keatonBraith/noDB-project"
+              href="https://github.com/RyanM245/portfolio"
               className="fab fa-github"
             >
               <span>GITHUB</span>
             </a>
           </div>
           <img
-            alt="photos"
-            src="https://images.unsplash.com/photo-1531845116688-48819b3b68d9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80"
+            alt="Code"
+            src="https://images.unsplash.com/photo-1508317469940-e3de49ba902e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
           />
         </div>
         <div className="budget-body">
           <img
-            alt="budget"
-            src="https://images.unsplash.com/photo-1554224154-26032ffc0d07?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1012&q=80"
+            alt="Computer"
+            src="https://images.unsplash.com/photo-1593642634367-d91a135587b5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
           />
           <div className="budget-info">
-            <h3>BudgeIt</h3>
+            <h3>YouTube-Yelp</h3>
             <p>
-              A budgeting app built to give the user a simple way to keep track
-              of their expenses and budgets in different categories over
-              different months.
-            </p>
-            <div>
-              <a href="https://budgeit.app/#/">LINK | </a>
-              <a
-                href="https://github.com/keatonBraith/budgeit"
-                className="fab fa-github"
-              >
-                <span>GITHUB</span>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className="yy-body">
-          <div className="yy-info">
-            <h3>Youtube-Yelp</h3>
-            <p>
-              A site designed to allow Youtube users a way to review channels
+              A site designed to allow YouTube users a way to review channels
               and give them access to new channels they might not otherwise
               find.
             </p>
@@ -134,9 +110,26 @@ const Home = () => {
               </a>
             </div>
           </div>
+        </div>
+        <div className="yy-body">
+          <div className="yy-info">
+            <h3>Alley-Hoop</h3>
+            <p>
+              A site designed to helped users locate pick-up basketball games as
+              well as schedule a pick-up basketball game.
+            </p>
+            <div>
+              <a
+                href="https://github.com/RyanM245/alley_hoop"
+                className="fab fa-github"
+              >
+                <span>GITHUB</span>
+              </a>
+            </div>
+          </div>
           <img
-            alt="computer"
-            src="https://images.unsplash.com/photo-1593642634367-d91a135587b5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+            alt="Basketball Court"
+            src="https://images.unsplash.com/photo-1496033604106-04799291ee86?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
           />
         </div>
       </div>
